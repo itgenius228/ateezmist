@@ -2,8 +2,8 @@
 var canvas = document.getElementById("game")
 var context = canvas.getContext("2d")
 
-var x = 0
-var y = 0
+var x = 0;
+var y = 0;
 
 
 function play() {
@@ -13,7 +13,7 @@ function play() {
    var button = keyboard.button();
    console.log(button)
 
-   if(button == "ArrowEight") {
+   if(button == "ArrowRight") {
        x= x+1
    }
 
